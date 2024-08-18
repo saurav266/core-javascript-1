@@ -1,0 +1,7 @@
+function checkNumber(num) {
+    return num > 0 ? "positive" : num < 0 ? "negative" : "zero";
+}
+
+// Example usage:
+let number = -5;
+console.log(`The number is ${checkNumber(number)}`);
