@@ -1,0 +1,16 @@
+let paymentMethod ="credit;
+
+switch(paymenMethod){
+case "credit":
+console.log("processing fee for credit paymnet: 2%);
+break;
+
+case "dibit":
+console.log("processing fee for debit paymnet: 1.5%);
+break;
+case "paypal":
+console.log("processing fee for cpaypel paymnet: 3%);
+break;
+default:
+console.log("invalid payment method);
+}
