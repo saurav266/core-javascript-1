@@ -1,0 +1,10 @@
+let targetnum=8;
+
+let sum=0;
+let currentnum=1;
+do{
+sum += currentnum;
+currentnum++;
+} while(currentnum <=targetnum);
+
+console.log(`sum of numbers from 1 to ${targetnum} : ${sum}`);
